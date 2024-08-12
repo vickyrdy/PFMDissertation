@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f5f7fa;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  
+  .widget {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .widget h3 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .widget p, .widget ul {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .widget .list-group-item {
+    background-color: transparent;
+    border: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .widget .progress {
+    height: 8px;
+    background-color: #e9ecef;
+  }
+  
+  .widget .progress-bar {
+    background-color: #36A2EB;
+  }
+  
+  .chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  

@@ -7,6 +7,11 @@ import TopNavbar from './navbar';
 import Sidebar from './sidebar';
 import { fetchExpenses } from '../utils/api';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ReminderWidget from './widgets/ReminderWidget';
+import ExpenseByCategoryChart from './widgets/ExpenseByCategoryChart';
+import IncomeVsExpenseChart from './widgets/IncomeVsExpenseChart';
+import BudgetOverview from './widgets/BudgetOverview';
+import './dashboard.css';
 import './styles.css';
 
 const Dashboard = ({ onLogout }) => {
